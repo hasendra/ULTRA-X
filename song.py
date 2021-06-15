@@ -29,14 +29,14 @@ ULTRA_USER = NAME
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 if BOT_MSG is None:
-  BOT_MAD = f"Hᴇʟʟᴏ sɪʀ ᴍʏsᴇʟғ UʟᴛʀᴀX, ғᴏʀ {ULTRA_USER}'s Pʀᴏᴛᴇᴄᴛɪᴏɴ "
+  BOT_MAD = f"Hᴇʟʟᴏ sɪʀ ᴍʏsᴇʟғ Captain, ғᴏʀ {ULTRA_USER}'s Pʀᴏᴛᴇᴄᴛɪᴏɴ "
 else:
   BOT_MAD = BOT_MSG   
 
 WARN = (
   f'''
 **{BOT_MAD}**
-__Hᴇʏ ᴛʜᴇʀᴇ!! I'ᴍ__ **υℓтяα χ** __ᴀɴᴅ I'ᴍ ʜᴇʀᴇ ᴛᴏ Pʀᴏᴛᴇᴄᴛ **{ULTRA_USER}**..\nDᴏɴ'ᴛ Uɴᴅᴇʀ Esᴛɪᴍᴀᴛᴇ ᴍᴇ 😈😈__**
+__Hᴇʏ ᴛʜᴇʀᴇ!! I'ᴍ__ **Captain** __ᴀɴᴅ I'ᴍ ʜᴇʀᴇ ᴛᴏ Pʀᴏᴛᴇᴄᴛ **{ULTRA_USER}**..\nDᴏɴ'ᴛ Uɴᴅᴇʀ Esᴛɪᴍᴀᴛᴇ ᴍᴇ 😈😈__**
 __Mʏ Mᴀsᴛᴇʀ **{ULTRA_USER}**  ɪs ʙᴜsʏ ʀɪɢʜᴛ ɴᴏᴡ !!__ \n"
 Mʏ Mᴀsᴛᴇʀ ʜᴀs ᴀssɪɢɴᴇᴅ ᴍᴇ ᴛʜᴇ ᴅᴜᴛʏ ᴛᴏ ᴋᴇᴇᴘ ᴀ ᴄʜᴇᴄᴋ ᴏɴ ʜɪs PM, Aɴᴅ ɪ'ʟʟ ᴅᴏ ɪᴛ ғᴀɪᴛʜғᴜʟʟʏ..Sᴏ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴅɪsᴛᴜʀʙ ʜɪᴍ..
 **Iғ ᴜ Sᴘᴀᴍ, ᴏʀ ᴛʀɪᴇᴅ ᴀɴʏᴛʜɪɴɢ ғᴜɴɴʏ, I'ᴠᴇ ғᴜʟʟ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ Bʟᴏᴄᴋ + Rᴇᴘᴏʀᴛ ʏᴏᴜ ᴀs Sᴘᴀᴍ ɪɴ Tᴇʟᴇɢʀᴀᴍ's sᴇʀᴠᴇʀ...**
@@ -46,7 +46,7 @@ Mʏ Mᴀsᴛᴇʀ ʜᴀs ᴀssɪɢɴᴇᴅ ᴍᴇ ᴛʜᴇ ᴅᴜᴛʏ ᴛᴏ �
 
 ULTRA_BOT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if ULTRA_BOT_PIC is None:
-    ULTRA_PIC = "https://telegra.ph/file/91d427a6873d44ca21c78.jpg"
+    ULTRA_PIC = "https://i.ibb.co/6RM69kC/www-name-generator-biz-229254.jpg"
 else:
     ULTRA_PIC = ULTRA_BOT_PIC
 
@@ -93,8 +93,8 @@ async def Inline_legendx(event):
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'noobda')))
 async def noobda (event):
   global back
-  Piro = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/UltraXchaT"), Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/UltraXoT")]]
-  Piro += [[Button.url("Rᴇᴘᴏ", "https://github.com/ULTRA-OP/ULTRA-X")]]
+  Piro = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/publictechno"), Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/publictechno")]]
+  Piro += [[Button.url("Rᴇᴘᴏ", "https://t.me/publictechno")]]
   Piro += back
   await event.edit("**Cʜᴇᴄᴋɪɴɢ ᴛʜᴇsᴇ ʟɪɴᴋs**", buttons=Piro)
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'pm_back')))
@@ -103,7 +103,7 @@ async def inline_legend(event):
   jnl = bot.me.first_name
   LEGENDX = [[Button.inline("Fʀɪᴇɴᴅ", data='frnd_bsdk'),Button.inline("Sᴘᴀᴍ", data='chutia')]]
   LEGENDX += [[Button.inline("Wᴜᴛ's ᴛʜɪs ?",data='noobda')]]
-  await event.edit(f"Hᴇʟʟᴏ **{acha}**, ᴍʏ sᴇʟғ UʟᴛʀᴀX, ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ **{jnl}**!", buttons=LEGENDX)
+  await event.edit(f"Hᴇʟʟᴏ **{acha}**, ᴍʏ sᴇʟғ Captain, ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ **{jnl}**!", buttons=LEGENDX)
   
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'nino')))
 async def _(event):
